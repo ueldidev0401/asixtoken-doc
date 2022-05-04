@@ -1,0 +1,743 @@
+        <nav id="hub-sidebar">
+          <div class="scrollable-parent">
+            <div class="nano ng-isolate-scope has-scrollbar" scroll-to-top="state.current().root">
+              <div class="nano-content" ng-transclude="" tabindex="0" style="right: -17px;">
+                <div id="hub-sidebar-content" class="ng-scope">
+                  <div ng-show="state.current().root == &#39;docs&#39;">
+                    <h3>Theta Network Intro</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcf262faa5a90005318893b&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcf262faa5a90005318893b&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;what-is-theta-network&#39;})"
+                          href="./what-is-theta-network.html" ng-class="{active: false}"
+                          ui-sref-alt="docs" title="What is Theta Network" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">What is Theta Network</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcefa3f04df790012c763ec&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcefa3f04df790012c763ec&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;whitepapers&#39;})"
+                          href="./whitepapers.html" ng-class="{active: false}" ui-sref-alt=""
+                          title="Whitepapers" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Whitepapers</div>
+                        </a></li>
+                    </ul>
+                    <h3>Blockchain Integration</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6e2427f00b60046269b63&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6e2427f00b60046269b63&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-mainnet-integration-guide&#39;})"
+                          href="./integration-Overview.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Integration Overview" ng-click="toggleMenu()"
+                          class="text-wrap"><span ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Integration Overview</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a href="https://github.com/thetatoken/theta-mainnet-integration-guide/tree/master/demos"
+                              data-sidebar="demos" target="_self" title="Demos" class="subpage sidebar-link">
+                              <div class="link-title"><span>Demos</span>
+                                <div class="fa fa-external-link-square external"></div>
+                              </div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6e2b7a78d8c006d9e81b3&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6e2b7a78d8c006d9e81b3&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;setup&#39;})"
+                          href="./Setup-and-Installation.html" ng-class="{active: false}" ui-sref-alt=""
+                          title="Setup and Installation" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Setup and Installation</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61d89a6a6e3df2003e90ea88&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61d89a6a6e3df2003e90ea88&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;launch-a-local-privatenet&#39;})"
+                          href="./Launch-a-Local-Private-Net.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Launch a Local Private Net" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Launch a Local Private Net</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6e8fff74fb90064194f8c&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6e8fff74fb90064194f8c&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;connect-to-the-testnet&#39;})"
+                          href="./Connect-to-the-Testnet.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Connect to the Testnet" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Connect to the Testnet</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6e9234859fb00786c1511&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6e9234859fb00786c1511&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;connect-to-the-mainnet&#39;})"
+                          href="./Connect to-the-Mainnet.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Connect to the Mainnet" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Connect to the Mainnet</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6e511857f52002c5a1d7e&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6e511857f52002c5a1d7e&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;command-line-tool&#39;})"
+                          href="./Command-Line-Tool.html.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Command Line Tool" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Command Line Tool</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6ea82a44d6e03944339f7&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6ea82a44d6e03944339f7&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;rpc-api-reference&#39;})"
+                          href="./RPC-API-Reference.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="RPC API Reference" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">RPC API Reference</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6fd9480c58a003581667a&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6fd9480c58a003581667a&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-blockchain-node-configuration&#39;})"
+                          href="./Configuration.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Configuration" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Configuration</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Blockchain JS SDK</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fce72fb0b7664010d1c3974&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fce72fb0b7664010d1c3974&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-overview&#39;})"
+                          href="./Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd1aba25cf52f0073951c40&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd1aba25cf52f0073951c40&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-getting-started&#39;})"
+                          href="./Getting-started.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Getting started" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Getting started</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd1c0b1961fd60035791d2c&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd1c0b1961fd60035791d2c&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-networks&#39;})"
+                          href="./Networks.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Networks" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Networks</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd1be8e7c76c8007971e41d&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd1be8e7c76c8007971e41d&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-providers&#39;})"
+                          href="./Providers.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Providers" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Providers</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd1c11f0dba40004f633c7f&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd1c11f0dba40004f633c7f&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-signers&#39;})"
+                          href="./Signers.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Signers" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Signers</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd1adce58fc5f002c146caf&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd1adce58fc5f002c146caf&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-contract-interaction&#39;})"
+                          href="./Contract-Interaction.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Contract Interaction" ng-click="toggleMenu()"
+                          class="text-wrap"><span ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Contract Interaction</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-contract-factory&#39;})"
+                              href="https://docs.thetatoken.org/docs/theta-js-sdk-contract-factory"
+                              ng-class="{active: false}" title="ContractFactory" class="text-wrap subpage">
+                              <div class="link-title">ContractFactory</div>
+                            </a></li>
+                          <li><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-contract&#39;})"
+                              href="https://docs.thetatoken.org/docs/theta-js-sdk-contract" ng-class="{active: false}"
+                              title="Contract" class="text-wrap subpage">
+                              <div class="link-title">Contract</div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6071ec4daa63a30250a99fc9&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6071ec4daa63a30250a99fc9&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-js-sdk-examples&#39;})"
+                          href="./Examples.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Examples" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Examples</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd01cfebcd9db001165e0a8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd01cfebcd9db001165e0a8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;smart-contract-test-and-debugging-tools&#39;})"
+                          href="./Test-and-Debugging-Tools.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Test and Debugging Tools"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Test and Debugging Tools</div>
+                        </a></li>
+                    </ul>
+                    <h3>Smart Contract and DApp Development</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fd010ddc3d0fe0048484963&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fd010ddc3d0fe0048484963&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;turing-complete-smart-contract-support&#39;})"
+                          href="./Turing-Complete-Smart-Contract.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Turing-Complete Smart Contract"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Turing-Complete Smart Contract</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6108330b1bd0d3001c2684bd&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6108330b1bd0d3001c2684bd&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;web3-stack-eth-rpc-support&#39;})"
+                          href="./Ethereum-RPC-API-support.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Ethereum RPC API support" ng-click="toggleMenu()"
+                          class="text-wrap"><span ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Ethereum RPC API support</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a ui-sref="docs.show({&#39;doc&#39;: &#39;setup-local-theta-ethereum-rpc-adaptor&#39;})"
+                              href="https://docs.thetatoken.org/docs/setup-local-theta-ethereum-rpc-adaptor"
+                              ng-class="{active: false}" title="Setup the ETH RPC Adaptor for Local Privatenet"
+                              class="text-wrap subpage">
+                              <div class="link-title">Setup the ETH RPC Adaptor for Local Privatenet</div>
+                            </a></li>
+                          <li><a
+                              ui-sref="docs.show({&#39;doc&#39;: &#39;setup-the-eth-rpc-adaptor-for-the-theta-mainnet&#39;})"
+                              href="https://docs.thetatoken.org/docs/setup-the-eth-rpc-adaptor-for-the-theta-mainnet"
+                              ng-class="{active: false}" title="Setup the ETH RPC Adaptor for the Theta Mainnet"
+                              class="text-wrap subpage">
+                              <div class="link-title">Setup the ETH RPC Adaptor for the Theta Mainnet</div>
+                            </a></li>
+                          <li><a
+                              ui-sref="docs.show({&#39;doc&#39;: &#39;compile-the-ethereum-rpc-api-from-source-code&#39;})"
+                              href="https://docs.thetatoken.org/docs/compile-the-ethereum-rpc-api-from-source-code"
+                              ng-class="{active: false}" title="Compile the Ethereum RPC Adaptor from Source Code"
+                              class="text-wrap subpage">
+                              <div class="link-title">Compile the Ethereum RPC Adaptor from Source Code</div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61083c0cd002c8006545f3fa&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61083c0cd002c8006545f3fa&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;web3-stack-metamask&#39;})"
+                          href="./Metamask.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Metamask" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Metamask</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61083cba8bf7310010d64d7a&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61083cba8bf7310010d64d7a&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;web3-stack-truffle&#39;})"
+                          href="./Truffle.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Truffle" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Truffle</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61083cda7cd385004ae54ef8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61083cda7cd385004ae54ef8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;web3-stack-hardhat&#39;})"
+                          href="./Hardhat.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Hardhat" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Hardhat</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc7ebf55b3272003b705754&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc7ebf55b3272003b705754&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;smart-contract-wallet-deployment-example&#39;})"
+                          href="./Remix.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Remix" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Remix</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61083d1099aa400075cc905e&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61083d1099aa400075cc905e&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;web3-stack-web3js&#39;})"
+                          href="./Web3.js.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Web3.js" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Web3.js</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61090dea56cbb2003fefe629&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61090dea56cbb2003fefe629&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;explorer-tools-for-dapp-development&#39;})"
+                          href="./Explorer-Tools-for-DApp-Development.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Explorer Tools for DApp Development"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Explorer Tools for DApp Development</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61a7216e1a4523000f7ed153&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61a7216e1a4523000f7ed153&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-blockchain-tnt20-token-integration-guide&#39;})"
+                          href="./Theta-Blockchain-TNT20-Token-Integration-Guide.html"
+                          ng-class="{active: false}" ui-sref-alt=""
+                          title="Theta Blockchain TNT20 Token Integration Guide" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Theta Blockchain TNT20 Token Integration Guide</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;608ac6ac83f83800478ae28e&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;608ac6ac83f83800478ae28e&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;creating-nfts-on-theta-blockchain&#39;})"
+                          href="./Demo-1_ Creating-NFTs-on-Theta Blockchain-with-Remix.html"
+                          ng-class="{active: false}" ui-sref-alt=""
+                          title="Demo 1: Creating NFTs on Theta Blockchain with Remix" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Demo 1: Creating NFTs on Theta Blockchain with Remix</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61098ca0e5f9fa00653e4a67&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61098ca0e5f9fa00653e4a67&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;testing-uniswap-v2-against-theta-local-privatenet&#39;})"
+                          href="./Demo-2_ Testing-Uniswap-V2-against-Theta-Local-Privatenet.html"
+                          ng-class="{active: false}" ui-sref-alt=""
+                          title="Demo 2: Testing Uniswap V2 against Theta Local Privatenet" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Demo 2: Testing Uniswap V2 against Theta Local Privatenet</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61118b7134c8e80050220afa&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61118b7134c8e80050220afa&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;demo-3-testing-the-openzeppelin-suite-against-theta-local-privatenet&#39;})"
+                          href="./Demo-3_ Testing-the-OpenZeppelin-Suite-against-Theta-Local-Privatenet.html"
+                          ng-class="{active: false}" ui-sref-alt=""
+                          title="Demo 3: Testing the OpenZeppelin Suite against Theta Local Privatenet"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Demo 3: Testing the OpenZeppelin Suite against Theta Local Privatenet
+                          </div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6138edd8b36cfc003a6a09e9&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6138edd8b36cfc003a6a09e9&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;demo-4-react-app-connecting-metamask-with-theta&#39;})"
+                          href="./Demo-4_ React-App-connecting-Metamask-with-Theta.html"
+                          ng-class="{active: false}" ui-sref-alt=""
+                          title="Demo 4: React App connecting Metamask with Theta" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Demo 4: React App connecting Metamask with Theta</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Video API</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6154f3c26a86ea0047139009&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6154f3c26a86ea0047139009&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-video-api-overview&#39;})"
+                          href="./Theta-Video-API-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Theta Video API Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Theta Video API Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6154f34574fbf1005f5d5131&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6154f34574fbf1005f5d5131&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-video-api-dashboard&#39;})"
+                          href="./Theta-Video-API-Dashboard.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Theta Video API Dashboard" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Theta Video API Dashboard</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6154f3642dbf2f0027989d63&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6154f3642dbf2f0027989d63&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-video-api-developer-api&#39;})"
+                          href="./Theta-Video-API-Docs.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Theta Video API Docs" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Theta Video API Docs</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcf32fc9d4d320011f540b8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcf32fc9d4d320011f540b8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-p2p-javascript-sdk&#39;})"
+                          href="./Theta-P2P-Javascript-SDK.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Theta P2P Javascript SDK" ng-click="toggleMenu()"
+                          class="text-wrap"><span ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Theta P2P Javascript SDK</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a
+                              ui-sref="docs.show({&#39;doc&#39;: &#39;full-p2p-javascript-sdk-integration-example&#39;})"
+                              href="https://docs.thetatoken.org/docs/full-p2p-javascript-sdk-integration-example"
+                              ng-class="{active: false}" title="Full P2P Javascript SDK Integration Example"
+                              class="text-wrap subpage">
+                              <div class="link-title">Full P2P Javascript SDK Integration Example</div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcf335becb49900111c0a59&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcf335becb49900111c0a59&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-p2p-android-sdk&#39;})"
+                          href="./Theta-P2P-Android-SDK.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Theta P2P Android SDK" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Theta P2P Android SDK</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Explorer</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcfdb40026f3a002538c3cc&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcfdb40026f3a002538c3cc&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;explorer-overview&#39;})"
+                          href="./Explorer-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Explorer Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Explorer Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6f86c8218db0018c04806&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6f86c8218db0018c04806&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;explorer-api-reference&#39;})"
+                          href="./RPC-API-Reference.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Explorer API Reference" ng-click="toggleMenu()" class="text-wrap"><span
+                            ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Explorer API Reference</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a href="https://explorer.thetatoken.org/" data-sidebar="theta-explorer" target="_self"
+                              title="Theta Explorer" class="subpage sidebar-link">
+                              <div class="link-title"><span>Theta Explorer</span>
+                                <div class="fa fa-external-link-square external"></div>
+                              </div>
+                            </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <h3>Theta Wallet</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fce730d154836016bdf23e3&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fce730d154836016bdf23e3&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-web-wallet&#39;})"
+                          href="./Wallet-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Wallet Overview" ng-click="toggleMenu()" class="text-wrap"><span
+                            ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Wallet Overview</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a href="https://wallet.thetatoken.org/unlock/keystore-file" data-sidebar="web-wallet"
+                              target="_blank" title="Web Wallet" class="subpage sidebar-link">
+                              <div class="link-title"><span>Web Wallet</span>
+                                <div class="fa fa-external-link-square external"></div>
+                              </div>
+                            </a></li>
+                          <li><a
+                              href="https://play.google.com/store/apps/details?id=org.theta.wallet&amp;hl=en_US&amp;gl=US"
+                              data-sidebar="android-wallet" target="_blank" title="Android Mobile Wallet"
+                              class="subpage sidebar-link">
+                              <div class="link-title"><span>Android Mobile Wallet</span>
+                                <div class="fa fa-external-link-square external"></div>
+                              </div>
+                            </a></li>
+                          <li><a href="https://apps.apple.com/us/app/theta-wallet/id1451094550"
+                              data-sidebar="ios-mobile-wallet" target="_blank" title="iOS Mobile Wallet"
+                              class="subpage sidebar-link">
+                              <div class="link-title"><span>iOS Mobile Wallet</span>
+                                <div class="fa fa-external-link-square external"></div>
+                              </div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcefb96becac80018ddfbbd&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcefb96becac80018ddfbbd&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;chrome-wallet-extension&#39;})"
+                          href="./Browser-Extension-Wallet.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Browser Extension Wallet" ng-click="toggleMenu()"
+                          class="text-wrap"><span ng-click="toggleMenu()" class="fa fa-chevron-right"></span>
+                          <div class="link-title">Browser Extension Wallet</div>
+                        </a>
+                        <ul class="subpages">
+                          <li><a ui-sref="docs.show({&#39;doc&#39;: &#39;browser-extension-wallet-user-guide&#39;})"
+                              href="https://docs.thetatoken.org/docs/browser-extension-wallet-user-guide"
+                              ng-class="{active: false}" title="User Guide" class="text-wrap subpage">
+                              <div class="link-title">User Guide</div>
+                            </a></li>
+                          <li><a
+                              ui-sref="docs.show({&#39;doc&#39;: &#39;browser-extension-wallet-developer-guide&#39;})"
+                              href="https://docs.thetatoken.org/docs/browser-extension-wallet-developer-guide"
+                              ng-class="{active: false}" title="Developer Guide" class="text-wrap subpage">
+                              <div class="link-title">Developer Guide</div>
+                            </a></li>
+                        </ul>
+                      </li>
+                      <li><a href="https://github.com/thetatoken/theta-wallet-web"
+                          data-sidebar="theta-web-wallet-github" target="_blank" title="Theta Web Wallet GitHub"
+                          class="sidebar-link">
+                          <div class="link-title"><span>Theta Web Wallet GitHub</span>
+                            <div class="fa fa-external-link-square external"></div>
+                          </div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;602d999b38584d003b06d90d&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;602d999b38584d003b06d90d&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;preventing-lost-eth-erc20-tokens&#39;})"
+                          href="./Preventing-lost-ETH _ ERC20-tokens.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Preventing lost ETH / ERC20 tokens"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Preventing lost ETH / ERC20 tokens</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Validator</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;622a4e9aef8d0a09652e5906&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;622a4e9aef8d0a09652e5906&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;running-a-theta-validator&#39;})"
+                          href="./Running-a-Theta-Validator.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Running a Theta Validator" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Running a Theta Validator</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Guardian Node</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc6ff69cc96a90035703f9d&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc6ff69cc96a90035703f9d&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;guardian-node-overview&#39;})"
+                          href="./Guardian-Node-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Guardian Node Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Guardian Node Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc700cb4d1f4b005f1f8c58&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc700cb4d1f4b005f1f8c58&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;running-a-guardian-node-through-graphical-user-interface&#39;})"
+                          href="./Guardian-Node-GUI.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Guardian Node GUI" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Guardian Node GUI</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc72c4e79185b002f7d7f2f&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc72c4e79185b002f7d7f2f&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;guardian-staking-process&#39;})"
+                          href="./Guardian-Staking-Process.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Guardian Staking Process" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Guardian Staking Process</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc72e3a2fe488006d672035&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc72e3a2fe488006d672035&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;withdrawing-your-stake-from-the-guardian-node&#39;})"
+                          href="./Guardian-Stake-Withdrawal-Process.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Guardian Stake Withdrawal Process"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Guardian Stake Withdrawal Process</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc70250ce7486001e7e7e83&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc70250ce7486001e7e7e83&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;running-a-guardian-node-through-command-line&#39;})"
+                          href="https://docs.thetatoken.org/docs/running-a-guardian-node-through-command-line"
+                          ng-class="{active: false}" ui-sref-alt="" title="Install through Command Line"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Install through Command Line</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc7049b4d1f4b005f1f8fef&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc7049b4d1f4b005f1f8fef&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;running-a-guardian-node-on-the-googlecloud-marketplace&#39;})"
+                          href="./Install-through-Command-Line.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Install through GoogleCloud Marketplace"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Install through GoogleCloud Marketplace</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc72f3e8c37b7005353bf01&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc72f3e8c37b7005353bf01&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;install-guardian-node-from-source-code&#39;})"
+                          href="./Install-through-Source-Code.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Install through Source Code"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Install through Source Code</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fc7352d07a898001f9a535e&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fc7352d07a898001f9a535e&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;running-a-guardian-node-through-virtualbox-on-windows&#39;})"
+                          href="./Install-through-VirtualBox-on-Windows.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Install through VirtualBox on Windows"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Install through VirtualBox on Windows</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Edge Node</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fce7306f29867002c918774&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fce7306f29867002c918774&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;setup-theta-edge-node&#39;})"
+                          href="./Setting-up-the-Edge-Node.html" ng-class="{active: true}"
+                          ui-sref-alt="" title="Setting up the Edge Node" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Setting up the Edge Node</div>
+                        </a></li>
+                      <li><a href="https://api.thetatoken.org/downloads/edge-node/macos" data-sidebar="mac-download"
+                          target="_self" title="macOS Download" class="sidebar-link">
+                          <div class="link-title"><span>macOS Download</span>
+                            <div class="fa fa-external-link-square external"></div>
+                          </div>
+                        </a></li>
+                      <li><a href="https://api.thetatoken.org/downloads/edge-node/windows"
+                          data-sidebar="windows-download" target="_self" title="Windows Download" class="sidebar-link">
+                          <div class="link-title"><span>Windows Download</span>
+                            <div class="fa fa-external-link-square external"></div>
+                          </div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;60d6d038b618e8007fcd062d&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;60d6d038b618e8007fcd062d&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-node-run-with-docker&#39;})"
+                          href="./Run-Edge-Node-with-Docker-on-Linux.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Run Edge Node with Docker on Linux"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Run Edge Node with Docker on Linux</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;60dbb7ab1e1c800048c583d6&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;60dbb7ab1e1c800048c583d6&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;elite-edge-node-staking-process&#39;})"
+                          href="./Elite-Edge-Node-Staking-Process.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Elite Edge Node Staking Process"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Elite Edge Node Staking Process</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta EdgeStore</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6201a877a65dc9001078fb76&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6201a877a65dc9001078fb76&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-store-overview&#39;})"
+                          href="./EdgeStore-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="EdgeStore Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">EdgeStore Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6201a952bf27f20063ac049b&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6201a952bf27f20063ac049b&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-store-setup&#39;})"
+                          href="./Setup.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Setup" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Setup</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6201a9934c0ee400414f339a&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6201a9934c0ee400414f339a&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-store-cli-commands&#39;})"
+                          href="./CLI-Commands.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="CLI Commands" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">CLI Commands</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6201aa0eed31b5007a2b0993&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6201aa0eed31b5007a2b0993&#39;)}"
+                        class=""><a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-store-demos&#39;})"
+                          href="./Demos.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Demos" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Demos</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;6201a9ce989c4d000f134b96&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;6201a9ce989c4d000f134b96&#39;)}"
+                        class="subnav-expanded subnav-soft-toggle"><a
+                          ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-store-api-references&#39;})"
+                          href="./API-References.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="API References" ng-click="toggleMenu()"
+                          class="text-wrap active">
+                          <div class="link-title">API References</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Edge Compute</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcf36eb76a275002cf2c12b&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcf36eb76a275002cf2c12b&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;generic-edge-computing&#39;})"
+                          href="./Compute-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Compute Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Compute Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcf36e02b2c0f007f687144&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcf36e02b2c0f007f687144&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;the-foldinghome-initiative&#39;})"
+                          href="./The-Folding@Home-Initiative.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="The Folding@Home Initiative" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">The Folding@Home Initiative</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;60061ca81dcef40012da34f2&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;60061ca81dcef40012da34f2&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;edge-compute-video-transcoding&#39;})"
+                          href="./Video-Transcoding.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="Video Transcoding" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">Video Transcoding</div>
+                        </a></li>
+                    </ul>
+                    <h3>Theta Edgecast</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcee5330479130075caf961&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcee5330479130075caf961&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;edgecast-overview&#39;})"
+                          href="./Edgecast-Overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Edgecast Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Edgecast Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fcee430fa09da0145bb064b&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fcee430fa09da0145bb064b&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;streaming-on-theta-edgecast&#39;})"
+                          href="./Streaming-on-Edgecast.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Streaming on Edgecast" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Streaming on Edgecast</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;5fce866255edbc006b60d345&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;5fce866255edbc006b60d345&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-edge-player&#39;})"
+                          href="./Embeddable-Player.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Embeddable Player" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Embeddable Player</div>
+                        </a></li>
+                    </ul>
+                    <h3>ThetaPass</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fb0df22c027f0077d0a49f&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fb0df22c027f0077d0a49f&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;thetapass-js&#39;})"
+                          href="./ThetaPass-JavaScript.html" ng-class="{active: false}" ui-sref-alt=""
+                          title="ThetaPass - JavaScript" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">ThetaPass - JavaScript</div>
+                        </a></li>
+                    </ul>
+                    <h3>TDROP</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fa8710dcb113001663afd8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fa8710dcb113001663afd8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;intro-to-tdrop&#39;})"
+                          href="./Intro-to-TDROP.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Intro to TDROP" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Intro to TDROP</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fa89f6156df40079675af8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fa89f6156df40079675af8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;thetadrop-vip-benefits&#39;})"
+                          href="./ThetaDrop-VIP-Benefits.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="ThetaDrop VIP Benefits" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">ThetaDrop VIP Benefits</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fa8a086b7e78005f5e56fd&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fa8a086b7e78005f5e56fd&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;tdrop-staking&#39;})"
+                          href="./Staking-TDROP.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Staking TDROP" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Staking TDROP</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fa8a11132d6300e14ab868&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fa8a11132d6300e14ab868&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;tdrop-governance&#39;})"
+                          href="./TDROP-Governance.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="TDROP Governance" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">TDROP Governance</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;61fa8a5cabc5a80039fbaf67&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;61fa8a5cabc5a80039fbaf67&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;earnings-formula&#39;})"
+                          href="./TDROP-Earnings-Formula.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="TDROP Earnings Formula" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">TDROP Earnings Formula</div>
+                        </a></li>
+                    </ul>
+                    <h3>ThetaSwap</h3>
+                    <ul>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;601c32bb4ca8250046d303af&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;601c32bb4ca8250046d303af&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-swap-overview&#39;})"
+                          href="./theta-swap-overview.html" ng-class="{active: false}"
+                          ui-sref-alt="" title="Overview" ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">Overview</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;601c32ddba1cea0081bc30b8&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;601c32ddba1cea0081bc30b8&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-swap-how-to-swap-tokens&#39;})"
+                          href="./How-to-swap-tokens.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="How to swap tokens" ng-click="toggleMenu()"
+                          class="text-wrap">
+                          <div class="link-title">How to swap tokens</div>
+                        </a></li>
+                      <li
+                        ng-class="{&#39;subnav-expanded&#39; : isActive(&#39;601c32ee4cedca002b7e366e&#39;), &#39;subnav-soft-toggle&#39; : isActive(&#39;601c32ee4cedca002b7e366e&#39;)}">
+                        <a ui-sref="docs.show({&#39;doc&#39;: &#39;theta-swap-how-to-create-a-liquidity-pool&#39;})"
+                          href="./How-to-create-a-liquidity-pool-on-ThetaSwap.html"
+                          ng-class="{active: false}" ui-sref-alt="" title="How to create a liquidity pool on ThetaSwap"
+                          ng-click="toggleMenu()" class="text-wrap">
+                          <div class="link-title">How to create a liquidity pool on ThetaSwap</div>
+                        </a></li>
+                    </ul>
+                  </div>
+                  <div
+                    ng-show="state.current().root == &#39;reference&#39; || state.current().root == &#39;preview&#39;"
+                    class="ng-hide">
+                    <div class="disabled-warning"><i class="icon icon-notification"></i> Only admins can see this<a
+                        href="https://dash.readme.com/project/theta/v1.0/usability#modules" target="_blank"
+                        rel="noreferrer">Enable it for everyone <i class="fa fa-chevron-right"></i></a></div>
+                  </div>
+                  <div ng-show="state.current().root == &#39;reference-edit&#39;" class="ng-hide"></div>
+                </div>
+              </div>
+              <div class="nano-pane">
+                <div class="nano-slider" style="height: 88px; transform: translate(0px, 398.858px);"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
